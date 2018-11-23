@@ -1,9 +1,9 @@
 {
-  "name": "demo1",
-  "version": "1.0.0",
+  "name": "yoki_demo1",
+  "version": "1.0.5",
   "description": "A Vue.js project",
-  "author": "yoki@gmail.com <yoki@gmail.com>",
-  "private": true,
+  "author": "yokili",
+  "private": false,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
@@ -68,5 +68,21 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "main": ".postcssrc.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lesuangs/demo1.git"
+  },
+  "keywords": [
+    "lishuang1024"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lesuangs/demo1/issues"
+  },
+  "homepage": "https://github.com/lesuangs/demo1#readme"
 }
